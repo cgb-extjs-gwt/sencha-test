@@ -9,7 +9,7 @@
   "detailedDescription": "Sencha Ext JS JavaScript Framework",
   "type": "framework",
   "scripts": {
-	  "start": "node ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --mode development -g --progress --colors --content-base ./public"
+	  "start": "node ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --mode development -g --progress --colors --content-base ./public --hot"
   },
   "signatures": [
 	{
