@@ -1,5 +1,6 @@
 import './MyOtherClass.js'
 import './MyOtherOtherClass.js'
+import style from './MainView.scss'
 
 Ext.define('Test.view.MainView', {
 	xtype: 'view-main',
@@ -10,6 +11,8 @@ Ext.define('Test.view.MainView', {
 			<div> this works now!!</div>
 			<div class="where-we-render"></div>
 		`,
+
+		cls: `${style.component}`,
 
 		data: {},
 

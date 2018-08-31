@@ -1,3 +1,5 @@
+import style from './MyOtherClass.scss'
+
 Ext.define('Test.view.MyOtherClass', {
 	xtype: 'view-myotherclass',
 	extend: 'Ext.Component',
@@ -6,6 +8,8 @@ Ext.define('Test.view.MyOtherClass', {
 		tpl: `
 			<div> wkjhkjlkjhorks!!</div>
 		`,
-		data: {}
+		data: {},
+		cls: `${style.component}`,
+
 	}
 })
