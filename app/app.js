@@ -1,4 +1,3 @@
-import senchaStyle from '../sencha/'
 import style from './app.scss'
 import './view/MainView.js'
 
